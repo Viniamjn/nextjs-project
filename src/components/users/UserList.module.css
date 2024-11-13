@@ -1,0 +1,29 @@
+.UserList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+    padding: 20px;
+    background-color: #f2f4f7;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.UserItem {
+    font-size: 18px;
+    font-weight: 500;
+    width: 14vw;
+    color: #333;
+    padding: 10px 16px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.UserItem:hover {
+    background-color: #3498db;
+    color: #fff;
+    transform: scale(1.02);
+}

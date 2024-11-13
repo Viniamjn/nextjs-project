@@ -1,0 +1,35 @@
+.Menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw;
+    padding: 20px 30px;
+    margin: 0 0 10px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Menu li {
+    margin: 0;
+}
+
+.Menu a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #3498db;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.Menu a:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.Menu a:active {
+    background-color: #2980b9;
+}
